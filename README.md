@@ -43,14 +43,14 @@ This webpage is still under construction. I'm making this project open source so
 This page appears when user clicks on the site and lands on the page.
 <br>
  
-![img1](assets/Pics/Screenshot 2023-05-26 033557.png)
+![](assets/Pics/Screenshot%202023-05-26%20033557.png)
 <br>
  
 **Sign In**
 
 This Page gives user to login to his/her respective account.
 
-![img](assets/Pics/Screenshot 2023-05-26 040321.png)
+![](assets/Pics/Screenshot%202023-05-26%20040321.png)
 <br>
 
 ### Show some ❤ by starring ⭐ the repository.
