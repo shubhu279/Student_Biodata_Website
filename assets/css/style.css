@@ -7,6 +7,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
 
 * {
   margin: 0;
@@ -19,7 +21,10 @@ html {
 }
 
 body {
-  background-color: rgb(21, 36, 94);
+  /* background-color: rgb(21, 36, 94); */
+  background-image: url("../Pics/Home\ Page\ Banner\ 1440.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 a {
@@ -27,10 +32,11 @@ a {
 }
 
 .nav {
-  position: absolute;
+  position: sticky;
   height: 70px;
   width: 100%;
-  background: rgb(4, 4, 59);
+  /* background: rgb(4, 4, 59); */
+  background: transparent;
   /* top: -70px; */
   color: #f8f8f8;
   display: flex;
@@ -42,66 +48,150 @@ a {
 .nav_icon {
   height: 60%;
   width: 600px;
-  background: linear-gradient(to left,rgb(4, 4, 59),rgb(94, 139, 236),rgb(4, 4, 59) 85%), linear-gradient(to right,white,black);
+  margin-top: -1px;
+  /* background: linear-gradient(to left,rgb(4, 4, 59),rgb(94, 139, 236),rgb(4, 4, 59) 85%), linear-gradient(to right,white,black); */
   font-family: "Lobster", sans-serif;
 }
 
-.nav_icon h1{
-    color: transparent;
-    background: linear-gradient(to right, white, rgb(68, 90, 255));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.nav_icon h1 {
+  color: transparent;
+  background: linear-gradient(
+    to right,
+    rgb(213, 234, 240) 10%,
+    rgb(89, 158, 237) 50%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.nav-menu{
-    height: 80%;
-    width: 600px;
-    /* background-color: antiquewhite; */
-    display: flex;
-    align-items: center;
+.nav-menu {
+  height: 80%;
+  width: 600px;
+  /* background-color: antiquewhite; */
+  display: flex;
+  align-items: center;
 }
 
-.nav-menu ul{
-    display: flex;
-    /* background-color: black; */
-    height: inherit;
-    width: 80%;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-left: 120px;
+.nav-menu ul {
+  display: flex;
+  /* background-color: black; */
+  height: inherit;
+  width: 80%;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 120px;
 }
 
-.nav-menu ul li{
-    list-style: none;
-    font-family: 'Roboto',sans-serif;
+.nav-menu ul li {
+  list-style: none;
+  font-family: "Roboto", sans-serif;
 }
 
-.nav-menu ul li a{
-    color: #f8f8f8;
+.nav-menu ul li a {
+  color: #f8f8f8;
 }
 
-.signButton{
-    height: 40px;
-    width: 130px;
-    background: rgb(238, 150, 35);
-    border-top: 3px solid rgb(122, 81, 5);
-    border-left: 1px solid rgb(122, 81, 5);
-    border-right: 3px solid rgb(122, 81, 5);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-    cursor: pointer;
+.signButton {
+  height: 40px;
+  width: 130px;
+  background: rgb(238, 150, 35);
+  border-top: 3px solid rgb(122, 81, 5);
+  border-left: 1px solid rgb(122, 81, 5);
+  border-right: 3px solid rgb(122, 81, 5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  cursor: pointer;
 }
 
-.nav-menu ul li a:hover{
-    color: rgb(242, 107, 107);
-    transition: 0.6s;
+.nav-menu ul li a:hover {
+  color: rgb(242, 107, 107);
+  transition: 0.6s;
 }
 
-.signButton:hover{
-    background: transparent;
-    transition: 0.6s ease-out;
-    border-color: #f8f8f8;
-    box-shadow: 0px 20px 60px 0px rgb(68, 90, 255,0.4);
+.signButton:hover {
+  background: transparent;
+  transition: 0.6s ease-out;
+  border-color: #f8f8f8;
+  box-shadow: 0px 20px 60px 0px rgb(68, 90, 255, 0.4);
+}
+
+.Container {
+  height: 450px;
+  width: 450px;
+  background: transparent;
+  /* border: 1px solid red; */
+  margin-left: 60px;
+  margin-top: 48px;
+  color: white;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.Container h1 {
+  font-size: 40px;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.Container p {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 30px;
+}
+
+.Container a {
+  color: #f8f8f8;
+  display: flex;
+  align-items: center;
+}
+
+.start{
+  display: flex;
+  align-items: center;
+  height: 60px;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+.Container .getStarted {
+  position: relative;
+  /* margin-left: 30px; */
+  height: 60px;
+  width: 200px;
+  /* background: gray; */
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.Container a p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  /* background-color: antiquewhite; */
+  z-index: 9;
+  margin-left: -173px;
+  margin-top: 30px;
+  font-size: 22px;
+  letter-spacing: 2px;
+  font-family: "Roboto", sans-serif;
+}
+
+.Container .getStarted .animate {
+  height: 60px;
+  width: 60px;
+  background: palevioletred;
+  border-radius: inherit;
+  transition: 0.6s ease;
+}
+
+.Container .start:hover .animate{
+  width: 190px;
+  transition: 0.6s ease;
 }
