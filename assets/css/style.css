@@ -206,7 +206,7 @@ a {
 
 .main-container {
   width: 100%;
-  height: 568px;
+  height: 100vh;
   /* background-color: #f8f8f8; */
   background-image: url("../Pics/6938833_3409390.jpg");
   background-repeat: no-repeat;

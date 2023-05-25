@@ -1,4 +1,4 @@
-// console.log("Welcome Folks!!!");
+// alert("Welcome Folks!!!");
 
 /*Moving the Nav bar -- will use this later in other pages*/
 
