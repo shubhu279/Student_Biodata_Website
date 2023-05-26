@@ -54,7 +54,7 @@ a {
   width: 600px;
   margin-top: -1px;
   margin-left: 25px;
-  background: linear-gradient(to left, #07012d, rgb(49, 107, 231), #07012d 85%),
+  background: linear-gradient(to left, #06002C, rgb(49, 107, 231), #06002C 85%),
     linear-gradient(to right, rgb(0, 2, 23), black);
   font-family: "Lobster", sans-serif;
 }
@@ -224,6 +224,15 @@ a {
   margin: auto;
 }
 
+.main-container .register-form {
+  width: 450px;
+  height: 550px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  margin: auto;
+  /* display: flex; */
+}
+
 .login {
   width: 100%;
   height: 50px;
@@ -246,7 +255,30 @@ a {
   justify-content: center;
   align-items: center;
 }
+
+.form-contain-register{
+  width: 100%;
+  height: 400px;
+  /* background: #07012D; */
+  color: #f8f8f8;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .form-contain form {
+  width: 95%;
+  height: 100%;
+  /* background: black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 10px;
+}
+
+.form-contain-register form {
   width: 95%;
   height: 100%;
   /* background: black; */
@@ -282,10 +314,48 @@ a {
   background-color: rgb(202, 217, 240);
 }
 
+.form-contain-register form .col-field {
+  display: flex;
+}
+
+.form-contain-register form .fields {
+  width: 180px;
+}
+
+.form-contain-register form input {
+  width: 230px;
+  height: 25px;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+  /* cursor: pointer; */
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+}
+
+.form-contain-register form input:focus {
+  border: 1px solid black;
+  background-color: rgb(202, 217, 240);
+}
+
 .eye {
   left: 380px;
   position: relative;
   margin-top: -40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+}
+
+.eye-reg {
+  left: 380px;
+  position: relative;
+  margin-top: -44px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -319,4 +389,8 @@ a {
   border-bottom: none;
   color: rgb(240, 150, 150);
   transition: 0.6s ease-in;
+}
+
+#strength{
+  display: none;
 }
