@@ -109,6 +109,7 @@ a {
   justify-content: center;
   border-radius: 20px;
   cursor: pointer;
+  transition: 0.6s ease;
 }
 
 .nav-menu ul li a:hover {
@@ -118,7 +119,7 @@ a {
 
 .signButton:hover {
   background: transparent;
-  transition: 0.6s ease-out;
+  /* transition: 0.6s ease-out; */
   border-color: #f8f8f8;
   box-shadow: 0px 20px 60px 0px rgb(68, 90, 255, 0.4);
 }
