@@ -53,4 +53,11 @@ This Page gives user to login to his/her respective account.
 ![](assets/Pics/Screenshot%202023-05-26%20040321.png)
 <br>
 
+**Register**
+
+This Page gives new user to register and create his/her account.
+
+![](assets/Pics/Screenshot%202023-05-27%20211529.png)
+<br>
+
 ### Show some ❤ by starring ⭐ the repository.
