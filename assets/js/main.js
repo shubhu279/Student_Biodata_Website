@@ -17,6 +17,16 @@
 //     }
 // }
 
-//Toggle-eye
-
-
+// let typed = document.getElementById("typewriter");
+// let getText= typed.innerHTML;
+// typed.innerHTML = "";
+// let i = 0;
+// function typewriter(){
+//     if(i<getText.length)
+//     {
+//         typed.innerHTML += getText.charAt(i);
+//         i++;
+//         setTimeout(typewriter, 20);
+//     }
+// }
+// typewriter();
