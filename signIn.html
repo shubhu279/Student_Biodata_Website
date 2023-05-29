@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/Pics/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div class="sign main-container">
+      <div class="home">
+        <a href="/"><i class="fa fa-home" style="color: white; font-size: 24px; margin-bottom: 520px;padding-left: 10px;margin-right: -35px;cursor: pointer;"></i></a>
+      </div>
+      <div class="login-form">
+        <div class="form-head">
+          <div class="login">
+            <h4>User Login</h4>
+          </div>
+          <div class="icon" style="display: flex;align-items: center;">
+            <i
+              class="fa-solid fa-circle-user"
+              style="
+                color: rgb(7, 1, 39);
+                font-size: 60px;
+                margin: 20px;
+                box-shadow: 0px 20px 60px 0px rgb(68, 90, 255, 0.4);
+                border-radius: 50%;
+              "
+            ></i>
+            <h4 style="font-size: 30px;letter-spacing: 1px;">National Institute Of Technology, Durgapur</h4>
+          </div>
+          <div class="form-contain">
+            <form action="">
+              <div class="col-field col-3">
+                <div class="fields">Registration Number</div>
+                <input type="text" name="Reg" id="reg" required />
+              </div>
+              <div class="col-field col-5">
+                <div class="fields">Password</div>
+                <input type="password" name="Password" id="password" required />
+              </div>
+              <div class="eye">
+                <i
+                  class="fa fa-eye-slash"
+                  id="Toggle-eye"
+                  style="color: rgb(72, 72, 72) !important"
+                ></i>
+              </div>
+              <div class="submit-btn">
+                <div class="user-reg">
+                   New User? <a href="/register.html" style="color: black;text-decoration: underline;">Register</a>
+                </div>
+                <input
+                  type="submit"
+                  value="Submit"
+                  style="
+                    width: 110px;
+                    height: 40px;
+                    border-radius: 20px;
+                    font-family: 'Ubuntu', sans-serif;
+                    letter-spacing: 1px;
+                    cursor: pointer;
+                    font-size: 15px;
+                    padding-left: 0px;
+                  "
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/login.js"></script>
+  </body>
+</html>

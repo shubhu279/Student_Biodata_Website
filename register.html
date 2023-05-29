@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/Pics/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+      <div class="sign main-container">
+          <div class="home">
+            <a href="/"><i class="fa fa-home" style="color: white; font-size: 24px; margin-bottom: 520px;padding-left: 10px;margin-right: -35px;cursor: pointer;"></i></a>
+          </div>
+          <div class="register-form">
+              <div class="form-head">
+          <div class="login">
+            <h4>User Registration</h4>
+          </div>
+          <div class="icon" style="display: flex;align-items: center;">
+            <i
+              class="fa-solid fa-circle-user"
+              style="
+                color: rgb(7, 1, 39);
+                font-size: 60px;
+                margin: 20px;
+                box-shadow: 0px 20px 60px 0px rgb(68, 90, 255, 0.4);
+                border-radius: 50%;
+              "
+            ></i>
+            <h4 style="font-size: 30px;letter-spacing: 1px;">National Institute Of Technology, Durgapur</h4>
+          </div>
+          <div class="form-contain-register">
+            <form action="">
+              <div class="col-field col-1">
+                <div class="fields">Name</div>
+                <input type="text" name="Name" id="name" required />
+              </div>
+              <div class="col-field col-2">
+                <div class="fields">Institute Mail ID</div>
+                <input type="text" name="Mail" id="mail" required />
+              </div>
+              <div class="col-field col-3">
+                <div class="fields">Registration Number</div>
+                <input type="text" name="Reg" id="reg" required />
+              </div>
+              <div class="col-field col-4">
+                <div class="fields">Institute Roll Number</div>
+                <input type="text" name="Roll" id="roll" required />
+              </div>
+              <div class="col-field col-5">
+                <div class="fields">Password</div>
+                <input type="password" name="Password" id="password" required />
+              </div>
+              <div class="eye-reg">
+                <i
+                  class="fa fa-eye-slash Toggle-eye"
+                  style="color: rgb(72, 72, 72) !important"
+                ></i>
+              </div>
+              <div id="strength" style="font-size: 12px;margin-top: -10px;margin-left: 190px;font-family: 'Ubuntu',sans-serif;letter-spacing: 0.1px;">
+                Password is weak
+              </div>
+              <div class="col-field col-6">
+                <div class="fields">Confirm Password</div>
+                <input type="password" name="Confirm Password" id="confirm-password" required />
+              </div>
+              <div class="submit-btn" style="margin-top: 30px;">
+                <div class="user-reg">
+                   Already Registered? <a href="/signIn.html" style="color: black;text-decoration: underline;">Login</a>
+                </div>
+                <input
+                  type="submit"
+                  value="Submit"
+                  style="
+                    width: 110px;
+                    height: 40px;
+                    border-radius: 20px;
+                    font-family: 'Ubuntu', sans-serif;
+                    letter-spacing: 1px;
+                    cursor: pointer;
+                    font-size: 15px;
+                    padding-left: 0px;
+                  "
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/register.js"></script>
+  </body>
+</html>
