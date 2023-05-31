@@ -417,10 +417,11 @@ a {
 }
 .contact-container form{
   height: 200px;
-  background-color: #5f5b7d;
-  border: 1px solid black;
+  background: rgba(255, 255, 255, 0.2);
+  /* border: 1px solid black; */
   font-family: "Roboto", sans-serif;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+  box-shadow: 0 20px 80px 0px rgba(8, 48, 192, 0.765);
+  backdrop-filter: blur(2px);
   margin: 20px;
   color: f8f8f8;
   display: flex;
@@ -451,6 +452,19 @@ a {
   display: flex;
   align-items: center;
   justify-content: center ;
+  margin: auto 0px;
+}
+
+.contact-submit{
+  margin-top: 20px;
+  margin-left: 315px;
+}
+
+.contact-submit input:hover{
+  background: rgba(15, 73, 210, 0.555);
+  box-shadow: inset 0px 20px 80px 0px rgb(49, 107, 231);
+  border: 1px solid rgba(15, 73, 210, 0.555);
+  transition: 0.6s;
 }
 
 .contact-container form input:focus {
@@ -462,6 +476,4 @@ a {
   width: 20px;
   background-color: orange;
   color: #f9f9f9;
-  margin-top: 20px;
-  margin-left: 300px;
 }
